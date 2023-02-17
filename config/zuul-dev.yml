@@ -1,7 +1,7 @@
 # 应用名称
 spring:
   application:
-    name: zull
+    name: zuul
   cloud:
     config:
       override-none: true
@@ -11,11 +11,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka1:2001/eureka,http://eureka2:2002/eureka
-zuul:
-  routes:
-    sp2-itemservice: /item-service/**
-    sp3-userservice: /user-service/**
-    sp4-orderservice: /order-service/**
 
   retryable: true
 #ribbon:
