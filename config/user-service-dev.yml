@@ -5,9 +5,9 @@ sp:
 spring:
  application:
   name: sp3-userservice
-  cloud:
-   config: 
-    override-none: true
+ cloud:
+  config: 
+   override-none: true
 # 应用服务 WEB 访问端口
 server:
  port: 8101
