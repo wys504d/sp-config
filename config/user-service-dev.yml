@@ -4,7 +4,7 @@
 # 应用名称
 spring:
  application:
-  name: sp3-userservice
+  name: user-service
  cloud:
   config: 
    override-none: true

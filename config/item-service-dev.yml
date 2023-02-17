@@ -1,7 +1,7 @@
 # 应用名称
 spring:
  application:
-  name: sp2-itemservice
+  name: item-service
  cloud:
   config: 
    override-none: true

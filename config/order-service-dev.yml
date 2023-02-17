@@ -1,6 +1,6 @@
 spring:
   application:
-    name: sp4-orderservice
+    name: order-service
   cloud:
    config: 
     override-none: true    
