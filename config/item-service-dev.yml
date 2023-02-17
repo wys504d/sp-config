@@ -2,6 +2,9 @@
 spring:
  application:
   name: sp2-itemservice
+ cloud:
+  config: 
+   override-none: true
 
 #server:
 #  port: 8001

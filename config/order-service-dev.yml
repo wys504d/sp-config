@@ -1,7 +1,9 @@
 spring:
   application:
     name: sp4-orderservice
-    
+  cloud:
+   config: 
+    override-none: true    
 #server:
 #  port: 8201
 
